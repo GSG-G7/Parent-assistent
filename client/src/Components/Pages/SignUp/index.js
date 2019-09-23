@@ -1,10 +1,10 @@
 import React from 'react';
 import Button from '../../CommonComponent/Button';
 
-const Sinup = () => {
+const Signup = () => {
   const data = ['Teacher', 'Parent'];
   return (
-    <div className="container">
+    <div>
       {data.map(el => (
         <Button value={el} className="button-input" />
       ))}
@@ -12,4 +12,4 @@ const Sinup = () => {
   );
 };
 
-export default Sinup;
+export default Signup;
